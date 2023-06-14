@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 :root {
-  --chamoisee: #997646ff;
-  --ecru: #caac75ff;
-  --lemon-chiffon: #fefac1ff;
-  --light-green: #a5ee9dff;
-  --malachite: #73db6aff;
-  --kelly-green: #3ec030ff;
+  --chamoisee: #997646;
+  --ecru: #caac75;
+  --lemon-chiffon: #fefac1;
+  --light-green: #a5ee9d;
+  --yellow-green: #82cd47;
+  --kelly-green: #54b435;
+  --forest-green: #379237;
+  --cal-poly-green: #1C4A1C;
 
   --font-family: 'Josefin Sans', sans-serif;
 
-  --color-bg: #997646ff;
+  --gradient-text: linear-gradient(71deg, #FFFFFF 0%, #F4E95A 100%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+
+
+  --color-bg: #1C4A1C;
   --color-signupbutton: #FF4820;
-  --color-footer: #997646ff;
+  --color-footer: #379237;
+  --color-text: #fefac1;
 }
 
 
