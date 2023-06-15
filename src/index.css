@@ -4,22 +4,32 @@
   --chamoisee: #997646;
   --ecru: #caac75;
   --lemon-chiffon: #fefac1;
+
+
   --light-green: #a5ee9d;
   --yellow-green: #82cd47;
   --kelly-green: #54b435;
   --forest-green: #379237;
   --cal-poly-green: #1C4A1C;
 
+
+  --vanilla: #f2e3a5ff;
+  --dutch-white: #f4e6c3ff;
+  --cream: #f3f6b4ff;
+  --vanilla-2: #f4e5a6ff;
+  --jasmine: #ffd97eff;  
+
   --font-family: 'Josefin Sans', sans-serif;
 
-  --gradient-text: linear-gradient(71deg, #FFFFFF 0%, #F4E95A 100%);
+  --gradient-text: linear-gradient(71deg, #0F0175 0%, #751E75 66%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
 
 
-  --color-bg: #1C4A1C;
-  --color-signupbutton: #FF4820;
-  --color-footer: #379237;
-  --color-text: #fefac1;
+  --color-text: #000;
+  --color-bg: #f4e5a6;
+  --color-button-bg: #FF4820;
+  --color-button-text: #ffffff;
+  --color-footer: #997646;
 }
 
 

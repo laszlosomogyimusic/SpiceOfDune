@@ -68,7 +68,7 @@
   padding: 0 1rem;
   outline: none;
   border-radius: 5px 0px 0px 5px;
-  color: #fff;
+  color: var(--color-text);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;  
 }
@@ -81,8 +81,8 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 27px;
-  background: #FF4820;
-  color: #FFFFFF;
+  background: var(--color-button-bg);
+  color: var(--color-button-text);
   cursor: pointer;
   outline: none;
   padding: 0 1rem;
