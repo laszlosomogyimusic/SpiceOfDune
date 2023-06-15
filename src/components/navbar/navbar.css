@@ -114,6 +114,11 @@
 }
 
 @media screen and (max-width:550px) {
+  .navbar__image {
+    width: 80px;
+    height: 80px;  
+  }
+
   .navbar {
     padding: 2rem;
   }
