@@ -3,7 +3,7 @@ import './header.css'
 import people from '../../assets/people.png';
 import shaiHulud from '../../assets/shaihulud.png'
 
-function Header() {
+const Header = () => {
   return (
     <div className="header header--padding" id="header">
       <div className="header__wrapper">
