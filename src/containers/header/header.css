@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.header__wrapper {
+.header__header {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
   margin-right: 5rem;  
 }
 
-.header__h1 {
+.header__title {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 62px;
@@ -22,12 +22,12 @@
   letter-spacing: -0.04em;
 }
 
-.header__paragraph {
+.header__text {
   font-family: var(--font-family);
   color: var(--color-text);
 }
 
-.header__paragraph--large {
+.header__text--large {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -35,7 +35,7 @@
   margin-top: 1.5rem;
 }
 
-.header__paragraph--small {
+.header__text--small {
   margin: 0 0 0 1rem;
   font-weight: 500;
   font-size: 14px;
@@ -87,7 +87,7 @@
   border-bottom-right-radius: 5px;
 }
 
-.header__image-wrapper {
+.header__figure {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -118,24 +118,24 @@
     flex-direction: column;
   }
 
-  .header__wrapper {
+  .header__header {
     margin: 0 0 3rem;
   }
 }
 
 
 @media screen and (max-width: 650px) {
-  .header__h1 {
+  .header__title {
     font-size: 48px;
     line-height: 60px;    
   }
 
-  .header__paragraph--large {
+  .header__text--large {
     font-size: 16px;
     line-height: 24px;    
   }
 
-  .header__paragraph--small {
+  .header__text--small {
     margin: 0;
   }
 
@@ -151,7 +151,7 @@
 }
 
 @media screen and (max-width: 490px) {
-  .header__h1 {
+  .header__title {
     font-size: 36px;
     line-height: 48px;   
   }
