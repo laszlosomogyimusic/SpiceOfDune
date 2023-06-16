@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Houses } from './components'
-import { Header } from './containers'
+import { Header, WhatSpice } from './containers'
 
 import './App.css'
 import './index.css'
@@ -13,6 +13,7 @@ const App = () => {
         <Header />
       </div> 
       <Houses />
+      <WhatSpice />
     </div>
   )
 }

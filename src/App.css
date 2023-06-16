@@ -14,11 +14,11 @@ a {
   text-decoration: none;
 }
 
-.section__padding {
+.section--padding {
   padding: 4rem 6rem;
 }
 
-.section__margin {
+.section--margin {
   margin: 4rem 6rem;
 }
 
@@ -92,5 +92,18 @@ a {
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
+  }
+}
+
+
+@media screen and (max-width: 810px) {
+  .section--padding {
+    padding: 1rem 4rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .section--padding {
+    padding: 0rem 1rem;
   }
 }

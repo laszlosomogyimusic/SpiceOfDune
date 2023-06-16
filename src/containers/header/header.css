@@ -2,10 +2,6 @@
   display: flex;
 }
 
-.header--padding {
-  padding: 4rem 6rem;
-}
-
 .header__wrapper {
   flex: 1;
   display: flex;
@@ -155,10 +151,6 @@
 }
 
 @media screen and (max-width: 490px) {
-  .header--padding {
-    padding: 0rem 1rem;
-  }
-
   .header__h1 {
     font-size: 36px;
     line-height: 48px;   

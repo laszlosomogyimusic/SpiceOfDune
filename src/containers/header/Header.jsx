@@ -5,7 +5,7 @@ import shaiHulud from '../../assets/shaihulud.png'
 
 const Header = () => {
   return (
-    <div className="header header--padding" id="header">
+    <div className="header section--padding" id="header">
       <div className="header__wrapper">
         <h1 className="header__h1 gradient__text">He who controls the spice controls the universe</h1>
         <p className="header__paragraph header__paragraph--large">I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.</p>

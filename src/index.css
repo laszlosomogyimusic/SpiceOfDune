@@ -22,7 +22,8 @@
   --font-family: 'Josefin Sans', sans-serif;
 
   --gradient-text: linear-gradient(71deg, #0F0175 0%, #751E75 66%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --gradient-bar: linear-gradient(71deg, #0F0175 -13.86%, #751E75 99.55%);
+  /* --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%); */
 
 
   --color-text: #000;
@@ -30,6 +31,7 @@
   --color-button-bg: #FF4820;
   --color-button-text: #ffffff;
   --color-footer: #997646;
+  --color-subtext: #000;
 }
 
 

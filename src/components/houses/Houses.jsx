@@ -5,7 +5,7 @@ import { atreides, benegesserit, emperor, fremen, guild, harkonnen, mentat } fro
 
 const Houses = () => {
   return (
-    <div className="houses houses--padding">
+    <div className="houses section--padding">
       <div className="houses__image-wrapper">
         <img className="houses__image" src={atreides} alt="atreides" />
       </div>
