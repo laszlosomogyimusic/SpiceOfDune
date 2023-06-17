@@ -9,7 +9,7 @@ const Features = () => {
   return (
     <section className="features section--padding" id="features">
       <header className="features__header">
-        <h1 className="features__title gradient__text">The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
+        <h1 className="features__title gradient__text">Since its discovery it was produced exclusively on the planet Arrakis</h1>
         <p className="features__text">Request Early Access to Get Started</p>
       </header>
       <article className="features__body">
