@@ -22,8 +22,10 @@
   --font-family: 'Josefin Sans', sans-serif;
 
   --gradient-text: linear-gradient(71deg, #0F0175 0%, #751E75 66%);
-  --gradient-bar: linear-gradient(71deg, #0F0175 -13.86%, #751E75 99.55%);
-  
+  --gradient-bar--old: linear-gradient(71deg, #0F0175 -13.86%, #751E75 99.55%);
+  --gradient-bar: linear-gradient(90deg, rgba(153, 118, 70, 1) 0%, rgba(254, 250, 193, 1) 100%);
+
+
   --color-title: #100063;
   --color-text: #000;
   --color-bg: #f4e5a6;
