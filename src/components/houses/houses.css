@@ -5,7 +5,7 @@
   align-items: center;  
 }
 
-.houses__image-wrapper {
+.houses__figure {
   flex: 1;
   max-width: 150px;
   min-width: 120px;

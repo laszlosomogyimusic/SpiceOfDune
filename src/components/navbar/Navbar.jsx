@@ -57,16 +57,16 @@ const SignElements = (props) => {
 const Navbar = () => {
 
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="navbar__menu-wrapper">
-        <div className="navbar__logo">
+        <figure className="navbar__logo">
           <img className="navbar__image" src={logo} alt="logo" />
-        </div>
+        </figure>
         <HorizontalMenu />
       </div>
       <SignElements isHamburgerMenu={false}/>
       <HamburgerMenu />
-    </div>
+    </nav>
   )
 }
 

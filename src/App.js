@@ -7,14 +7,14 @@ import './index.css'
 
 const App = () => {
   return (
-    <div className="App">
+    <main className="App">
       <div className="gradient__bg">
         <Navbar />
         <Header />
       </div> 
       <Houses />
       <WhatSpice />
-    </div>
+    </main>
   )
 }
 

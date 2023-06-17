@@ -5,29 +5,29 @@ import { atreides, benegesserit, emperor, fremen, guild, harkonnen, mentat } fro
 
 const Houses = () => {
   return (
-    <div className="houses section--padding">
-      <div className="houses__image-wrapper">
+    <section className="houses section--padding">
+      <figure className="houses__figure">
         <img className="houses__image" src={atreides} alt="atreides" />
-      </div>
-      <div className="houses__image-wrapper">
+      </figure>
+      <figure className="houses__figure">
         <img className="houses__image" src={benegesserit} alt="bene gesserit" />
-      </div>
-      <div className="houses__image-wrapper">
+      </figure>
+      <figure className="houses__figure">
         <img className="houses__image" src={emperor} alt="emperor" />
-      </div>
-      <div className="houses__image-wrapper">
+      </figure>
+      <figure className="houses__figure">
         <img className="houses__image" src={fremen} alt="fremen" />
-      </div>
-      <div className="houses__image-wrapper">
+      </figure>
+      <figure className="houses__figure">
         <img className="houses__image" src={guild} alt="guild" />
-      </div>
-      <div className="houses__image-wrapper">
+      </figure>
+      <figure className="houses__figure">
         <img className="houses__image" src={harkonnen} alt="harkonnen" />
-      </div>
-      <div className="houses__image-wrapper">
+      </figure>
+      <figure className="houses__figure">
         <img className="houses__image" src={mentat} alt="mentat" />
-      </div>
-    </div>
+      </figure>
+    </section>
   )
 }
 

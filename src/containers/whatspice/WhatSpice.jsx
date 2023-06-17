@@ -4,7 +4,7 @@ import Feature from '../../components/feature/Feature'
 
 const WhatSpice = () => {
   return (
-    <main className="whatspice section--margin" id="whatisspice">
+    <section className="whatspice section--margin" id="whatisspice">
       <section className="whatspice__top-section">
         <Feature
           position="top"
@@ -34,7 +34,7 @@ const WhatSpice = () => {
         />
       </section>
 
-    </main>
+    </section>
   )
 }
 
