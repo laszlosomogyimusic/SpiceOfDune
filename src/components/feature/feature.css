@@ -96,7 +96,7 @@
 }
 
 @media screen and (max-width: 350px) {
-  .feature__bottom-section {
+  .feature--column {
       margin: 1rem 0;
       min-width: 100%;
   }
