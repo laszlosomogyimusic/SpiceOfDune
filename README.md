@@ -4,6 +4,9 @@
 
 Spice of Dune is a modern responsive React app, which is based on Adrian Hajdin's ChatGPT template. The original project can be found on his Youtube channel called JavaScript Mastery, however I added my own twist to it.
 
+## Live URL
+https://spiceofdune.netlify.app/
+
 ## Technologies
 * Get the design from an existing Figma template
 * React JS
