@@ -11,8 +11,8 @@ const MenuLinks = (props) => {
     <>
     <p className={`navbar__menuitem ${classText}`}><a href="#home">Home</a></p>
     <p className={`navbar__menuitem ${classText}`}><a href="#whatisspice">What is Spice?</a></p>
-    <p className={`navbar__menuitem ${classText}`}><a href="#possibility">Arrakis</a></p>
-    <p className={`navbar__menuitem ${classText}`}><a href="#features">Case Studies</a></p>
+    <p className={`navbar__menuitem ${classText}`}><a href="#possibility">Melange</a></p>
+    <p className={`navbar__menuitem ${classText}`}><a href="#features">Effects</a></p>
     <p className={`navbar__menuitem ${classText}`}><a href="#blog">Library</a></p>            
     </>
   );

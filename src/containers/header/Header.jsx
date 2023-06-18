@@ -19,7 +19,7 @@ const Header = () => {
         </figure>
       </header>
       <figure className="header__figure">
-        <img className="header__image" src={shaiHulud} alt="ladybug" />
+        <img className="header__image" src={shaiHulud} alt="shai hulud" />
       </figure>
     </section>
   )
