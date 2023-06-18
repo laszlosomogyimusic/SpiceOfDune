@@ -1,0 +1,145 @@
+.footer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  background: var(--color-footer);
+}
+
+.footer__header {
+  width: 100%;
+  text-align: center;
+
+  margin-bottom: 3rem;
+}
+
+.footer__title {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+
+  text-align: center;
+  letter-spacing: -0.04em;
+}
+
+.footer__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+
+.footer__button-text {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;    
+  word-spacing: 2px;
+}
+
+.footer__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  width: 100%;
+  text-align: left;
+}
+
+.footer__body--size {
+  width: 250px;
+  margin: 1rem;
+}
+
+.footer__figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer_image {
+  width: 125px;
+  height: 125px;  
+
+  margin-bottom: 1rem;
+}
+
+
+.footer__links {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.footer__link-title {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  
+  margin-bottom: 1rem;
+}
+
+.footer__link-text {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;  
+
+  margin: 0.5rem 0;
+
+  cursor: pointer;
+}
+
+.footer__copyright {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.footer__copyright-text {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;  
+}
+
+@media screen and (max-width: 850px) {
+  .footer__title {
+    font-size: 44px;
+    line-height: 50px;
+  }
+
+  .footer__link-text {
+    line-height: 2px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__title {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .footer__body--size {
+    margin: 1rem 0;
+  }
+
+  .footer__button {
+    margin-bottom: 2rem;
+  }
+
+  .footer__button-text {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

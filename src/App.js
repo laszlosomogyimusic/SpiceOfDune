@@ -8,10 +8,10 @@ import './index.css'
 const App = () => {
   return (
     <main className="App">
-      <div className="gradient__bg">
+      <header className="gradient__bg">
         <Navbar />
         <Header />
-      </div> 
+      </header> 
       <Houses />
       <WhatSpice />
       <Features />
