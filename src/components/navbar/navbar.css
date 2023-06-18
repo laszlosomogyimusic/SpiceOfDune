@@ -61,7 +61,7 @@
 
   text-align: end;
   background: var(--color-footer);
-  padding: 2rem;
+  padding: 1rem;
   position: absolute;
   top: 40px;
   right: 0;
@@ -86,7 +86,9 @@
 }
 
 .navbar__menuitem--hamburger {
+  line-height: 28px;
   color: var(--color-text);
+  font-size: 20px;
 }
 
 .navbar__menuitem--horizontal {
