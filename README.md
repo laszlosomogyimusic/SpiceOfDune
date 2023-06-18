@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Spice of Dune
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Spice of Dune is a modern responsive React app, which is based on Adrian Hajdin's ChatGPT template. The original project can be found on his Youtube channel called JavaScript Mastery, however I added my own twist to it.
 
-In the project directory, you can run:
+## Technologies
+* Get the design from an existing Figma template
+* React JS
+* HTML5 semantic tags
+* BEM naming convention for CSS classnames
 
-### `npm start`
+## Challenges
+* Finding color scheme
+* Refactoring the code
+* About Spice section
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## References
 
-### `npm test`
+### Source code
+* Original GiHub Repo: https://github.com/adrianhajdin/project_modern_ui_ux_gpt3
+* Youtube video: https://www.youtube.com/watch?v=F627pKNUCVQ 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Images
+The following images were used in this project:
+* Eyes of Ibad: https://www.deviantart.com/themagiclemur/art/The-Fremen-Child-31256617 
+* Christopher Doll: http://christopher-doll.com/project/arrakis/
+* Encyclopaedia Britannica: https://www.britannica.com/science/sand-dune
+* Scientific American: https://www.scientificamerican.com/article/what-dune-should-teach-us-about-the-beauty-of-wastelands/
+* Treehugger: https://www.treehugger.com/woods-vs-forest-5182505
+* James Goodyear: https://twitter.com/jgoodyear9/status/1356686015956738059
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
