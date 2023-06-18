@@ -78,24 +78,32 @@
   .feature__top-section .feature__text {
       margin-top: 0.5rem;
   }
+
 }
 
 @media screen and (max-width: 550px) {
   .feature__title {
     margin-top: 0.5rem;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
   }
 
   .feature__text {
     margin-top: 0.5rem;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 20px;
   }
 
   .feature {
     margin: 1rem 0;
   }
+
+
+  .feature__header {
+    flex: 1;
+    max-width: 100px;
+    margin-right: 0rem;
+  }  
 }
 
 @media screen and (max-width: 350px) {

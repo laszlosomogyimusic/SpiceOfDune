@@ -29,7 +29,7 @@
 .article__date {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 11.649px;
+  font-size: 15px;
   line-height: 35px;
 }
 
@@ -37,7 +37,7 @@
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 800;
-  font-size: 19.3154px;
+  font-size: 20px;
   line-height: 30px;
 
   margin-bottom: 5rem;
@@ -46,18 +46,20 @@
 
 .article__link {
   font-family: var(--font-family);
-  font-style: normal;
   font-weight: 700;
-  font-size: 11.649px;
+  font-size: 15px;
   line-height: 35px;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 
   cursor: pointer;
 }
 
 @media screen and (max-width: 550px) {
   .article__title {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
+  }
+  .article__link {
+    margin-bottom: 0rem;
   }
 }

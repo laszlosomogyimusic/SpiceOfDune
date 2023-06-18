@@ -156,8 +156,8 @@
     line-height: 48px;   
   }
 
-  .gpt3__header p {
-    font-size: 14px;
+  .header__text--large {
+    font-size: 15px;
     line-height: 24px;
   }
   

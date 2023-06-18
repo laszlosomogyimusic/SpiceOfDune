@@ -92,7 +92,7 @@
 
 .footer__link-text {
   font-family: var(--font-family);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 14px;
   color: #000000;  
 
@@ -130,9 +130,18 @@
     font-size: 34px;
     line-height: 42px;
   }
+
   .footer__body--size {
     margin: 1rem 0;
+    width: 180px;
   }
+
+  .footer_image {
+    width: 100px;
+    height: 100px;  
+  
+    margin-bottom: 1rem;
+  }  
 
   .footer__button {
     margin-bottom: 2rem;
