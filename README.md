@@ -31,3 +31,5 @@ The following images were used in this project:
 * Treehugger: https://www.treehugger.com/woods-vs-forest-5182505
 * James Goodyear: https://twitter.com/jgoodyear9/status/1356686015956738059
 
+## Mockup
+![mockup](src/assets/mockup/mockup.png)
